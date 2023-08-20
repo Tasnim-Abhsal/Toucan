@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnlinePlay"
+    android:padding="15dp"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/onlineBackBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:backgroundTint="@color/main"
+        android:layout_marginBottom="40dp"
+        />
+    <ImageView
+        android:id="@+id/onlineAudioImg"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginBottom="40dp"
+        />
+    <ImageView
+        android:id="@+id/onlineController"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/baseline_play_arrow_24"
+        />
+</LinearLayout>

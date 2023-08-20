@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#212120"
+    android:id="@+id/musicItem"
+    android:layout_marginTop="5dp"
+    >
+    <LinearLayout
+        android:layout_width="300dp"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/music_img"
+            android:src="@mipmap/ic_launcher_round"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="File Name"
+            android:layout_toEndOf="@+id/music_img"
+            android:layout_marginStart="10dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:id="@+id/music_file_name"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/playOnline"
+        android:layout_gravity="center_vertical"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/baseline_play_arrow_24"
+        />
+</LinearLayout>
